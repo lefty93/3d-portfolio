@@ -23,8 +23,8 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            NAME &nbsp;
-            <span className="sm:block hidden">| WEBPAGE TITLE</span>
+            ChuSeng &nbsp;
+            <span className="sm:block hidden">| Yong</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -33,9 +33,10 @@ const Navbar = () => {
               className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`#${link.id}`} >{link.title}</a>
             </li>
           ))}
+          <a href="https://github.com/lefty93/pomoclock" className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" target="_blank">Resume</a>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

@@ -1,9 +1,11 @@
 import { motion } from "framer-motion"
-
+import { sentence, letter } from "../utils/motion"
 import { styles } from "../styles"
 import { ComputersCanvas } from "./canvas"
 
 const Hero = () => {
+  const yourname = "Chu Seng";
+  const yourjob = "Front End Web Developer";
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
@@ -12,11 +14,23 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
-          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className="text-[#915eff]">Name</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>Description <br className="sm:block hidden" />interfaces and web application
+        <motion.div variants={sentence} initial="hidden" animate="visible">
+          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className="text-[#915eff]">{yourname.split("").map((char, index) => {
+            return (
+              <motion.span key={char + "-" + index} variants={letter}>
+                {char}
+              </motion.span>
+            )
+          })}</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I am a<br className="sm:block hidden" />{yourjob.split("").map((char, index) => {
+            return (
+              <motion.span key={char + "-" + index} variants={letter}>
+                {char}
+              </motion.span>
+            )
+          })}
           </p>
-        </div>
+        </motion.div>
 
       </div>
       <ComputersCanvas />

@@ -39,7 +39,7 @@ const BallCanvas = ({ icon }) => {
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           autoRotate
-          autoRotateSpeed={0.5}
+          autoRotateSpeed={0.3}
           reverseOrbit={false}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}

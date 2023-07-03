@@ -5,9 +5,10 @@ import { styles } from "../styles"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 import { SectionWrapper } from "../hoc"
-import { github } from '../assets'
+import { link, github } from '../assets'
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, webpage_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt className="sm:w-[360px] w-full p-5 shadow-card bg-tertiary rounded-2xl" options={{ max: 45, scale: 1, speed: 450 }}>
@@ -19,6 +20,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div onClick={() => window.open(source_code_link, "_blank")} className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient">
             <img src={github} alt="github" className="object-contain w-1/2 h-1/2" />
+          </div>
+          <div onClick={() => window.open(webpage_link, "_blank")} className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient">
+            <img src={link} alt="link" className="object-contain w-1/2 h-1/2" />
           </div>
         </div>
 

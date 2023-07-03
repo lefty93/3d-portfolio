@@ -19,9 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    cafeorder,
+    raiahotel,
+    pomodoro,
     threejs,
 } from "../assets";
 
@@ -34,10 +34,12 @@ export const navLinks = [
         id: "work",
         title: "Work",
     },
+
     {
         id: "contact",
         title: "Contact",
     },
+
 ];
 
 const services = [
@@ -72,18 +74,18 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
     {
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -96,10 +98,10 @@ const technologies = [
         name: "MongoDB",
         icon: mongodb,
     },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
+    // {
+    //     name: "Three JS",
+    //     icon: threejs,
+    // },
     {
         name: "git",
         icon: git,
@@ -108,10 +110,10 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
 ];
 
 const experiences = [
@@ -198,16 +200,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Cafe Order",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to order drinks with ease and convenience.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "framer-motion",
                 color: "green-text-gradient",
             },
             {
@@ -215,50 +217,47 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: cafeorder,
+        source_code_link: "https://github.com/lefty93/food-order",
+        webpage_link: "https://calm-coffee-325167.netlify.app/",
     },
     {
-        name: "Job IT",
+        name: "Raia Hotel Landing Page",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Try to clone and modify with existing landing page with react and basic css.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
+                name: "css",
                 color: "pink-text-gradient",
             },
+
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: raiahotel,
+        source_code_link: "https://github.com/lefty93/react-web",
+        webpage_link: "https://raia-clone-71743f.netlify.app/"
     },
     {
-        name: "Trip Guide",
+        name: "Pomodoro",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A simple pomodoro timer embedded with audio player.",
         tags: [
             {
-                name: "nextjs",
+                name: "react",
                 color: "blue-text-gradient",
             },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
+
             {
                 name: "css",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: pomodoro,
+        source_code_link: "https://github.com/lefty93/pomoclock",
+        webpage_link: "https://simple-pomodoro-507976.netlify.app/"
     },
 ];
 
