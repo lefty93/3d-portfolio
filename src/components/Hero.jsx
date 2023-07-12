@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { sentence, letter } from "../utils/motion"
 import { styles } from "../styles"
-import { ComputersCanvas } from "./canvas"
+import { ShibaCanvas } from "./canvas"
 
 const Hero = () => {
   const yourname = "Chu Seng";
@@ -24,7 +24,7 @@ const Hero = () => {
           })}</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>I am a<br className="sm:block hidden" />{yourjob.split("").map((char, index) => {
             return (
-              <motion.span key={char + "-" + index} variants={letter}>
+              <motion.span key={char + "-" + index} variants={letter} className="text-[#915eff]">
                 {char}
               </motion.span>
             )
@@ -33,7 +33,7 @@ const Hero = () => {
         </motion.div>
 
       </div>
-      <ComputersCanvas />
+      <ShibaCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
