@@ -22,7 +22,7 @@ const Hero = () => {
               </motion.span>
             )
           })}</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I am a<br className="sm:block hidden" />{yourjob.split("").map((char, index) => {
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I am a <br className="sm:block hidden" />{yourjob.split("").map((char, index) => {
             return (
               <motion.span key={char + "-" + index} variants={letter} className="text-[#915eff]">
                 {char}
