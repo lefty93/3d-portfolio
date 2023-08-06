@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import { sentence, letter } from "../utils/motion"
 import { styles } from "../styles"
 import { ShibaCanvas } from "./canvas"
+import Typewriter from "typewriter-effect"
 
 const Hero = () => {
   const yourname = "Chu Seng";
@@ -22,16 +23,22 @@ const Hero = () => {
               </motion.span>
             )
           })}</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I am a <br className="sm:block hidden" />{yourjob.split("").map((char, index) => {
-            return (
-              <motion.span key={char + "-" + index} variants={letter} className="text-[#915eff]">
-                {char}
-              </motion.span>
-            )
-          })}
+
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I am a <br className="sm:block hidden" />
+            <div className="text-[#915eff]">
+              <Typewriter
+                options={{
+                  strings: ['Web Developer', 'Front-end Web Developer'],
+                  autoStart: true,
+                  loop: true,
+                  delay: 50,
+                  deleteSpeed: 20,
+                }}
+              />
+            </div>
+            
           </p>
         </motion.div>
-
       </div>
       <ShibaCanvas />
 
