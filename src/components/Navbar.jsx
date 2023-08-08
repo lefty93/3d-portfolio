@@ -36,7 +36,7 @@ const Navbar = () => {
               <a href={`#${link.id}`} >{link.title}</a>
             </li>
           ))}
-          <a href="https://github.com/lefty93/pomoclock" className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" target="_blank">Resume</a>
+          <a href="https://drive.google.com/file/d/1QCQgeC3muGbbfoA2jINJhXBaksvVZp6k/view?usp=sharing" className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer" target="_blank">Resume</a>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

@@ -26,6 +26,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import longi from "./company/longi.png";
+import cma from "./company/cma.png";
+import aia from "./company/aia.png";
 
 import cafeorder from "./cafeorder.jpeg";
 import raiahotel from "./raiahotel.jpeg";
@@ -57,6 +60,9 @@ export {
   meta,
   shopify,
   starbucks,
+  longi,
+  cma,
+  aia,
   tesla,
   cafeorder,
   raiahotel,

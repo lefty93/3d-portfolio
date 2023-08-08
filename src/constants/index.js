@@ -17,6 +17,9 @@ import {
     docker,
     meta,
     starbucks,
+    longi,
+    cma,
+    aia,
     tesla,
     shopify,
     cafeorder,
@@ -48,17 +51,17 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "React Developer",
         icon: mobile,
     },
-    {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
+    // {
+    //     title: "Backend Developer",
+    //     icon: backend,
+    // },
+    // {
+    //     title: "Content Creator",
+    //     icon: creator,
+    // },
 ];
 
 const technologies = [
@@ -118,57 +121,56 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Equipment Engineer",
+        company_name: "Longi",
+        icon: longi,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "September 2017 - September 2018",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            " Conduct preventive maintenance on process equipment to minimize downtime and extend equipment lifespan",
+            "Collaborate with the process team to identify the root causes of defects and wafer breakage, and devise strategies for reduction, improvement, or elimination.",
+            "Prepare PM checklists for new machines.",
+            "Fulfil additional job-related tasks as assigned by the section manager/lead engineer.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Engineering Administrator",
+        company_name: "Cahaya Mutiara Asia",
+        icon: cma,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "November 2018 - December 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Read and interpret engineering drawings and diagrams.",
+            "Communicate with vendors to ensure that clients' requirements are fulfilled and comply with American Petroleum Institute(API) standard.",
+            " Performs other job-related tasks as required by the leader/manager.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Personal Assistant",
+        company_name: "AIA",
+        icon: aia,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "September 2022 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Assisting clients in submitting insurance claim applications to receive compensation.",
+            "Processing insurance claims and managing insurance denials.",
+            "Validating insurance coverage and entering patient information and billing codes into the system.",
+            " Performing administrative duties, including appointment scheduling, billing, and insurance claims processing.",
         ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 const testimonials = [
