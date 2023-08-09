@@ -27,7 +27,7 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         I am a new front-end web developer and eager to jumpstart my career in this exciting field. As a passionate self-starter, I have been teaching myself the skills needed to create stunning, user-friendly websites that engage and delight users.
       </motion.p>
-      <div className="flex flex-wrap gap-10 mt-20">
+      <div className="flex flex-wrap gap-10 mt-20 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

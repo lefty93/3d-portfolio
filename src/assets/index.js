@@ -33,6 +33,7 @@ import aia from "./company/aia.png";
 import cafeorder from "./cafeorder.jpeg";
 import raiahotel from "./raiahotel.jpeg";
 import pomodoro from "./pomodoro.jpeg";
+import mealrecipe from "./mealrecipe.png";
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   cafeorder,
   raiahotel,
   pomodoro,
+  mealrecipe,
 };

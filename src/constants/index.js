@@ -25,6 +25,7 @@ import {
     cafeorder,
     raiahotel,
     pomodoro,
+    mealrecipe,
     threejs,
 } from "../assets";
 
@@ -260,6 +261,25 @@ const projects = [
         image: pomodoro,
         source_code_link: "https://github.com/lefty93/pomoclock",
         webpage_link: "https://simple-pomodoro-507976.netlify.app/"
+    },
+    {
+        name: "Search-Meal",
+        description:
+            "A simple pomodoro timer embedded with audio player.",
+        tags: [
+            {
+                name: "vue",
+                color: "green-text-gradient",
+            },
+
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: mealrecipe,
+        source_code_link: "https://github.com/lefty93/vuejs-search-meal",
+        webpage_link: "https://taste-book-3ca1b0.netlify.app"
     },
 ];
 
