@@ -26,6 +26,7 @@ import {
     raiahotel,
     pomodoro,
     mealrecipe,
+    expensetracker,
     threejs,
 } from "../assets";
 
@@ -280,6 +281,30 @@ const projects = [
         image: mealrecipe,
         source_code_link: "https://github.com/lefty93/vuejs-search-meal",
         webpage_link: "https://taste-book-3ca1b0.netlify.app"
+    },
+    {
+        name: "Expense-Tracker",
+        description:
+            "A simple expense tracker to record expenses.",
+        tags: [
+            {
+                name: "php",
+                color: "green-text-gradient",
+            },
+
+            {
+                name: "laravel",
+                color: "blue-text-gradient",
+            },
+
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: expensetracker,
+        source_code_link: "https://github.com/lefty93/laravel-project.git",
+        webpage_link: "http://128.199.244.11/"
     },
 ];
 

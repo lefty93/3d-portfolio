@@ -34,6 +34,7 @@ import cafeorder from "./cafeorder.jpeg";
 import raiahotel from "./raiahotel.jpeg";
 import pomodoro from "./pomodoro.jpeg";
 import mealrecipe from "./mealrecipe.png";
+import expensetracker from "./expensetracker.png"
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   raiahotel,
   pomodoro,
   mealrecipe,
+  expensetracker
 };
